@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/relyance
+packages:
+- language: swift
+  registry: swiftpm
+  name: RelyanceSDK
+  url: https://github.com/Relyance/relyance-cmp-spm
+  install: 'Xcode > File > Add Package Dependencies > https://github.com/Relyance/relyance-cmp-spm.git > add product RelyanceSDK'
+  description: Relyance Consent Management Platform (CMP) iOS SDK, distributed as a Swift Package. Requires iOS 16.0+.
+  official: true
+- language: swift
+  registry: cocoapods
+  name: RelyanceSDK
+  url: https://github.com/Relyance/relyance-cmp-xcframework
+  install: 'CocoaPods podspec + versioned XCFramework ZIP binaries hosted in relyance-cmp-xcframework'
+  description: Versioned XCFramework binaries and CocoaPods podspec artifacts for the Relyance CMP iOS SDK.
+  official: true

@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.relyance.ai
+status_page: https://status.relyance.ai
+status_page_provider: Atlassian Statuspage
+status_components:
+- API
+- Assessments
+- Asset Explorer
+- Contract Analysis
+- Data Inspection
+- DSR (Data Subject Request)
+- Source Code Analysis
+notes: >-
+  Relyance AI publishes an Atlassian Statuspage covering seven platform components (including an "API"
+  component). No public versioning policy, deprecation policy, or RFC 8594 Sunset/Deprecation header
+  documentation was found — the developer/API surface is not publicly documented. No published
+  deprecation policy, so no Deprecation pointer is emitted.

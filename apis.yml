@@ -1,7 +1,24 @@
 aid: relyance-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/relyance-ai.png
 name: Relyance Ai
-description: Relyance Ai is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Relyance AI is an AI-native data security, AI security, and privacy platform that maps data flows from
+  source code through cloud and SaaS systems to AI models. Its core product, Lyo, acts as a "data defense
+  engineer" providing real-time visibility into where sensitive data lives and moves, who accesses it, and
+  how to remediate risk. The platform unifies data security (sensitive-data discovery, classification, and
+  exfiltration detection), AI security (AI agent inventory, MCP server discovery, agentic AI risk), and
+  privacy automation (DSRs, ROPAs, DPIAs, and consent management). Relyance AI is backed by Menlo Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/relyance-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Data Security
+- Privacy
+- AI Security
+- AI Governance
+- Data Governance
+- Compliance
+- Consent Management
+- Data Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,34 @@ maintainers:
 common:
 - type: Website
   url: https://relyance.ai
+- type: Blog
+  url: https://relyance.ai/blog
+- type: Pricing
+  url: https://relyance.ai/pricing/privacy-essentials
+- type: Support
+  url: https://relyance.ai/book-a-demo
+- type: TermsOfService
+  url: https://relyance.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://relyance.ai/privacy-statement
+- type: GitHubOrganization
+  url: https://github.com/relyance
+- type: StatusPage
+  url: https://status.relyance.ai
+- type: Lifecycle
+  url: lifecycle/relyance-ai-lifecycle.yml
+- type: TrustCenter
+  url: security/relyance-ai-trust-center.yml
+- type: Compliance
+  url: https://trust.relyance.ai/
+- type: DomainSecurity
+  url: security/relyance-ai-domain-security.yml
+- type: Packages
+  url: packages/relyance-ai-packages.yml
+- type: SDKs
+  url: packages/relyance-ai-packages.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
